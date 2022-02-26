@@ -1,0 +1,78 @@
+nav ul {
+    margin: auto;
+}
+
+#my-header {
+    margin: auto;
+    width: 100vw;
+    height: 2em;
+    margin-top: 0.8em;
+    background-color: lightgray
+}
+
+#my-header * {
+    margin: auto;
+    text-align: center;
+    transform: translateY(0.4em)
+}
+
+#my-nav * {
+    background-color: black;
+    color: lightgray;
+}
+
+#my-nav {
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    height: 2vh;
+}
+
+#my-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#my-main > div {
+    margin: auto;
+    width: 100vw;
+}
+
+#my-main img {
+    width: 100%;
+}
+
+#beagle {
+    position: relative;
+    text-align: center;
+}
+
+#beagle h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    text-shadow: 2px 2px 0.1em black;
+}
+
+#black-lab {
+    position: relative;
+    text-align: center;
+}
+
+#black-lab h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    text-shadow: 2px 2px 0.1em black;
+}
+
+@media (max-width: 992px) {
+    #my-nav {
+        padding: 0;
+    }
+}
